@@ -1,6 +1,6 @@
 import './style.css'
 
-import * as THREE from 'three'
+import * as THREE from 'https://cdn.skypack.dev/three@0.138.0'
 
 const scene = new THREE.Scene();//Creating the scene
 const camara = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);//Creating camera and defining aspect radio
